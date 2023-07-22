@@ -46,8 +46,6 @@ public class Startup
         }
 
 
-        services.AddScoped<ICustomerRepository, CustomerRepository>();
-        services.AddScoped<IAccountRepository, AccountRepository>();
         services.AddScoped<ITransactionRepository, TransactionRepository>();
 
 

@@ -9,7 +9,6 @@ namespace SipayApi.Data.Domain;
 public class Transaction : IdBaseModel
 {
     public int AccountNumber { get; set; }
-    public virtual Account Account { get; set; }
 
 
     public decimal CreditAmount { get; set; }   // -
